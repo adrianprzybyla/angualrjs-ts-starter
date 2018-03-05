@@ -12,7 +12,7 @@ export default angular.module('app', [])
                 private hello: string;
 
                 constructor(private $http: angular.IHttpService) {
-                    this.hello = "siema"
+                    this.hello = "Hello World"
                 }
             }
         }
